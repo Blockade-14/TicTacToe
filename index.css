@@ -1,0 +1,60 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body *{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.sizeCube{
+    height: 10rem;
+    width: 10rem;
+}
+
+.borderLine{
+    border: 0.1em solid #00968824;
+    border-right: 0.1em solid #00968824;
+    border-width: 0.2rem;
+}
+
+.padding{
+    padding: 4em;
+}
+
+.signX{
+    font-size: 8rem;
+    align-items: center;
+    color: #607d8bc4;
+    font-family: cursive;
+}
+
+.signO{
+    font-size: 8rem;
+    align-items: center;
+    color: #ffa00075;
+    font-family: cursive;
+}
+
+.border-left{
+    border-left: none;
+}
+
+.border-right{
+    border-right: none;
+}
+
+.border-top{
+    border-top: none;
+}
+
+.border-bottom{
+    border-bottom: none;
+}
