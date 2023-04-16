@@ -1,7 +1,7 @@
 var X = "X";
 var O = "O";
 var turn = X;
-var cells = document.querySelectorAll(".sizeCube");
+var cells = document.querySelectorAll(".borderLine");
 var matrix = [
     [cells[0], cells[1], cells[2]],
     [cells[3], cells[4], cells[5]],
@@ -107,6 +107,8 @@ function newGame(){
 
     for( var i=0; i<cells.length; i++ ){
         cells[i].innerHTML = "";
+        cells[i].classList.remove("signX");
+        cells[i].classList.remove("signO");
     }
 
     turn = X;
