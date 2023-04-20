@@ -30,19 +30,16 @@ body script{
     flex-direction: column;
 }
 
-.sizeCubes{
-    width: 30rem;
-    height: 30rem;
-}
-
 .borderLine{
     border: 0.1em solid #00968824;
     border-width: 0.2rem;
     overflow: auto;
+    height: 180px;
+    width: 10rem;
 }
 
 .padding{
-    padding: 4em;
+    padding: 3em;
 }
 
 .signX{
